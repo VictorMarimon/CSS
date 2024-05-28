@@ -1,0 +1,44 @@
+:root {
+    --color-primario: #DDD0C8;
+    --color-secundario: #fff;
+    --color-terciario: red;
+    --color-titulo-principal: black;
+    --color-titulo-secundario: #323232;
+    --color-parrafo: black;
+    --color-enlaces: #463a08;
+    --hobbies-letra: bold;
+}
+
+body {
+    background-color: var(--color-primario);
+}
+
+h1 {
+    color: var(--color-titulo-principal);
+}
+
+h2 {
+    color: var(--color-titulo-secundario);
+}
+
+p {
+    color: var(--color-parrafo);
+}
+
+a {
+    color: var(--color-enlaces);
+}
+
+img {
+    padding-left: 100px;
+}
+
+#presentacion {
+    font-style: italic;
+}
+
+.hobbies ul{
+    font: var(--hobbies-letra);
+    background-color: var(--color-secundario);
+
+}
