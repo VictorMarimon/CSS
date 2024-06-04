@@ -1,0 +1,17 @@
+.carta {
+    background-color: #ef203e;
+    padding: 10px;
+    width: 227px;
+    height: 230px;
+}
+
+.carta-2 {
+    background-color: #101319;
+    padding: 10px;
+    width: 227px;
+    height: 250px;
+}
+
+img {
+    border-radius: 120px;
+}
