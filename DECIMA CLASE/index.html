@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .contenedor{
+            width: 20vw;
+            height: 20vh;
+            background-color: aqua;
+            animation-name: primero, segundo;
+            animation-duration: 5s, 6s;
+            animation-delay: 0s, 5s;
+            animation-iteration-count: infinite, 1;
+        }
+
+        @keyframes primero {
+            from{
+                background-color: yellowgreen;
+                margin-left: 200px;
+                width: 50vw;
+            }
+
+            to{
+                background-color: yellowgreen;
+                margin-top: 200px;
+                height: 50vh;
+            }
+        }
+
+        @keyframes segundo {
+            
+
+            from{
+                background-color: brown;
+                margin-right: 200px;
+                height: 50vh;
+            }
+            to{
+                background-color: brown;
+                margin-bottom: 200px;
+                width: 50vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+    </div>
+</body>
+</html>
